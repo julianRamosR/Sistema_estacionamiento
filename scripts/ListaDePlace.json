@@ -1,0 +1,134 @@
+ {
+     "ADMIN": {
+         "A": [{
+                 "place": 1
+             },
+             {
+                 "place": 2
+             },
+             {
+                 "place": 3
+             },
+             {
+                 "place": 4
+             },
+             {
+                 "place": 5
+             }
+         ],
+         "B": [{
+                 "place": 1
+             },
+             {
+                 "place": 2
+             },
+             {
+                 "place": 3
+             },
+             {
+                 "place": 4
+             },
+             {
+                 "place": 5
+             }
+         ],
+         "C": [{
+                 "place": 1
+             },
+             {
+                 "place": 2
+             },
+             {
+                 "place": 3
+             },
+             {
+                 "place": 4
+             },
+             {
+                 "place": 5
+             }
+         ],
+         "D": [{
+                 "place": 1
+             },
+             {
+                 "place": 2
+             },
+             {
+                 "place": 3
+             },
+             {
+                 "place": 4
+             },
+             {
+                 "place": 5
+             }
+         ]
+     },
+     "ESTUD": {
+         "A": [{
+                 "place": 1
+             },
+             {
+                 "place": 2
+             },
+             {
+                 "place": 3
+             },
+             {
+                 "place": 4
+             },
+             {
+                 "place": 5
+             }
+         ],
+         "B": [{
+                 "place": 1
+             },
+             {
+                 "place": 2
+             },
+             {
+                 "place": 3
+             },
+             {
+                 "place": 4
+             },
+             {
+                 "place": 5
+             }
+         ],
+         "C": [{
+                 "place": 1
+             },
+             {
+                 "place": 2
+             },
+             {
+                 "place": 3
+             },
+             {
+                 "place": 4
+             },
+             {
+                 "place": 5
+             }
+         ],
+         "D": [{
+                 "place": 1
+             },
+             {
+                 "place": 2
+             },
+             {
+                 "place": 3
+             },
+             {
+                 "place": 4
+             },
+             {
+                 "place": 5
+             }
+         ]
+     }
+ }

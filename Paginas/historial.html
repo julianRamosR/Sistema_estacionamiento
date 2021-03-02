@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--Importar boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Boostrap Scripts-->
+    <script defer src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <!--Mis Imports-->
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/buscar.css" />
+    <link rel="stylesheet" href="../css/Inscribir.css" />
+    <script defer src="../scripts/SecurityAccess.js"></script>
+    <script defer src="../scripts/historial.js"></script>
+
+
+    <!-- Mi meta-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Shortcut Icon" type="image/x-icon" href="../Public/Logo.ico" />
+    <title>SISTEMA DE ESTACIONAMIENTO</title>
+</head>
+
+<body>
+
+    <div class="Modal" id="Modal">
+        <div class="top-bot" onclick="closer('Modal')"></div>
+
+        <div class="ajustador">
+            <div class="Right-left" onclick="closer('Modal')"></div>
+            <div class="Content-Modal">
+                <div class="title">
+                    <h4>INFORMACIÓN</h4>
+                </div>
+
+                <div class="content-body" id="modal-body">
+
+
+
+                </div>
+
+
+            </div>
+            <div class="Right-left" onclick="closer('Modal')"></div>
+        </div>
+
+        <div class="top-bot" onclick="closer('Modal')"></div>
+
+    </div>
+
+
+
+
+
+    <header class="title">
+        <div class="title-container">
+            <h1>SISTEMA DE ESTACIONAMIENTO</h1>
+            <div class="salir" onclick="salir()"><span>salir</span></div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="volver" onclick="window.location.href='buscar.html'">
+
+            <div class="ico"></div>
+            <h4>volver</h4>
+        </div>
+        <div class="logo"></div>
+        <div class="filter">
+            <div class="filter-grup">
+                <label for="name">Documento</label>
+                <input type="text" name="document" id="document" />
+            </div>
+            <div class="filter-button" onclick="buscarTabla()"></div>
+        </div>
+
+        <div class="table">
+
+            <table class="egt">
+                <thead>
+                    <tr>
+                        <td>Documento </td>
+
+                        <td>Tipo</td>
+
+                        <td>Placa</td>
+
+                        <td>Acción</td>
+                    </tr>
+                </thead>
+                <tbody id="tabla-historial"></tbody>
+            </table>
+        </div>
+    </div>
+
+
+
+    <!--Footer-->
+    <footer></footer>
+</body>
+
+
+
+</html>

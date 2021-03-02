@@ -1,0 +1,146 @@
+            .container>.volver {
+                display: flex;
+                position: fixed;
+                left: 5px;
+                justify-content: center;
+                align-items: center;
+                top: 75px;
+                cursor: pointer;
+            }
+            
+            .container>.volver:active {
+                transform: scale(1.1);
+            }
+            
+            .container>.volver>.ico {
+                width: 30px;
+                height: 30px;
+                background-size: contain;
+                background-position: center;
+                background-image: url(../Img/BackIcon.svg);
+            }
+            
+            .container>.volver>h4 {
+                font-weight: bold;
+            }
+            
+            .container>.filter {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 30px;
+            }
+            
+            .container>.filter>.filter-grup {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+            
+            .container>.filter>.filter-grup:nth-child(2) {
+                margin-left: 50px;
+            }
+            
+            .container>.filter>.filter-grup>label {
+                margin-bottom: 0;
+            }
+            
+            .container>.filter>.filter-grup>input {
+                height: 36px;
+                width: 200px;
+                background-color: #D3D3D3;
+                border-radius: 8px;
+                border: 0.5px;
+            }
+            
+            .container>.filter>.filter-button {
+                width: 35px;
+                height: 35px;
+                background-image: url(../Img/Filter.svg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+                margin-top: 15px;
+                margin-left: 25px;
+                cursor: pointer;
+            }
+            
+            .container>.filter>.filter-button:active {
+                transform: scale(1.2);
+            }
+            
+            .container>.table {
+                border: 1px solid #0B750E;
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                margin-top: 15px;
+                margin-bottom: 65px;
+            }
+            
+            .container>.table>table {
+                width: 100%;
+            }
+            
+            .container>.table>table>thead {
+                background-color: #D3D3D3;
+                border-bottom: 2px solid #0B750E;
+            }
+            
+            .container>.table>table>tbody>tr>td {
+                border-bottom: 1px solid #0B750E;
+                border-right: 1px solid #0B750E;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+            }
+            
+            .container>.table>table>tbody>tr>td>button {
+                width: 100px;
+                height: 35px;
+                background-color: black;
+                color: #FFFFFF;
+                font-weight: bold;
+                border: 0.5px;
+                border-radius: 8px;
+                letter-spacing: 0.5px;
+            }
+            
+            .container>.table>table>tbody>tr>td>button:active {
+                transform: scale(1.2);
+            }
+            
+            .Modal>.ajustador>.Content-Modal>.content-body>.button {
+                width: 100%;
+                margin-top: 15px;
+                align-items: center;
+                display: flex;
+                padding-bottom: 15px;
+            }
+            
+            .Modal>.ajustador>.Content-Modal>.content-body>.button>button:nth-child(1) {
+                background-color: #0B750E;
+                margin-right: 20px;
+            }
+            
+            .Modal>.ajustador>.Content-Modal>.content-body>.button>button {
+                width: 153px;
+                height: 35px;
+                background-color: black;
+                color: #FFFFFF;
+                font-weight: bold;
+                border: 0.5px;
+                border-radius: 8px;
+                letter-spacing: 0.5px;
+            }
+
+            .historial {
+                width: 100px;
+                height: 35px;
+                background-color: black;
+                color: #FFFFFF;
+                font-weight: bold;
+                border: 0.5px;
+                border-radius: 8px;
+                letter-spacing: 0.5px;
+            }

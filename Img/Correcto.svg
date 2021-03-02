@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="48px" height="48px" viewbox="0 0 48 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L48 0L48 48L0 48L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Icon">
+    <path d="M0 0L48 0L48 48L0 48L0 0Z" id="Background" fill="none" fill-rule="evenodd" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M40 20C40 31.045 31.045 40 20 40C8.955 40 0 31.045 0 20C0 8.955 8.955 0 20 0C31.045 0 40 8.955 40 20L40 20Z" transform="translate(4 4)" id="Shape" fill="#4CAF50" fill-rule="evenodd" stroke="none" />
+      <path d="M22.001 0L8.399 13.597L2.797 7.999L0 10.796L8.399 19.199L24.797 2.797L22.001 0L22.001 0Z" transform="translate(12.601013 14.602051)" id="Shape" fill="#CCFF90" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

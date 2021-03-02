@@ -1,0 +1,205 @@
+.container>.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container>.form>form {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container>.form>form>.form-grup-save {
+    display: flex;
+}
+
+.container>.form>form>.form-grup-save>.form-grup {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.container>.form>form>.form-grup-save>.form-grup:nth-child(2) {
+    margin-left: 30px;
+}
+
+.container>.form>form>.form-grup-save>.form-grup>label {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0px !important;
+}
+
+.container>.form>form>.form-grup-save>.form-grup>.content {
+    display: flex;
+    align-items: center;
+}
+
+.container>.form>form>.form-grup-save>.form-grup>input {
+    height: 36px;
+    width: 300px;
+    background-color: #D3D3D3;
+    border-radius: 8px;
+    border: 0.5px;
+}
+
+.container>.form>form>.form-grup-save>.form-grup>.content>select {
+    display: flex;
+    align-items: center;
+    width: 190px;
+    height: 33px;
+    margin-top: 1px;
+    border-radius: 8px;
+    background-color: #D3D3D3;
+}
+
+.container>.form>form>.form-grup-save>.form-grup>.content>select:nth-child(2) {
+    margin-left: 15px;
+}
+
+.container>.form>form>.form-grup-save>.form-grup>.content>select:nth-child(3) {
+    margin-left: 15px;
+}
+
+.container>.form>form>.form-grup-save>.form-grup>.date {
+    display: flex;
+    text-align: center;
+}
+
+.container>.form>form button {
+    width: 153px;
+    height: 35px;
+    background-color: #0B750E;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 0.5px;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+}
+
+.container>.form>button {
+    width: 153px;
+    height: 35px;
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 0.5px;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+}
+
+.Modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Modal>.top-bot {
+    width: 100%;
+    height: auto;
+    min-height: 25%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.Modal>.ajustador {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.Modal>.ajustador>.Right-left {
+    width: 30%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.6;
+}
+
+.Modal>.ajustador>.Content-Modal {
+    width: 50%;
+    height: 100%;
+    background-color: #FFFFFF;
+    opacity: 1;
+    z-index: 11;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.Modal>.ajustador>.Content-Modal>.title {
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.Modal>.ajustador>.Content-Modal>.title>.ico {
+    width: 33px;
+    height: 33px;
+    background-image: url(../Img/Correcto.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.Modal>.ajustador>.Content-Modal>.title>h4 {
+    margin: 0;
+    font-weight: bold;
+    font-family: 'Barlow', sans-serif;
+}
+
+.Modal>.ajustador>.Content-Modal>.content-body {
+    justify-content: left;
+    text-align: left;
+    flex-direction: column;
+    display: flex;
+    padding: 20px;
+    width: 70%;
+}
+
+.Modal>.ajustador>.Content-Modal>.content-body>label {
+    font-size: 1.3rem;
+}
+
+.Modal>.ajustador>.Content-Modal>.button {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+.Modal>.ajustador>.Content-Modal>.button>button:nth-child(1) {
+    background-color: #0B750E;
+    margin-right: 20px;
+}
+
+.Modal>.ajustador>.Content-Modal>.button>button {
+    width: 153px;
+    height: 35px;
+    background-color: black;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: 0.5px;
+    border-radius: 8px;
+    letter-spacing: 0.5px;
+}
